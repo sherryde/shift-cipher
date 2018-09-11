@@ -1,19 +1,3 @@
-############## alphabet_position ##############
-#Returns ==> a character (0-based numerical position of letter w/in the alphabet)
-    
-def alphabet_position(letter):
-
-    if letter.isupper():      
-        position = ord('A')
-    elif letter.islower():
-        position = ord('a')
-    else:
-        return letter         
-
-    order = ord(letter) - position         
-
-    return order       
-
 ############## rotate_character ##############
 #Returns ==> character string (alpha position of character)
 
